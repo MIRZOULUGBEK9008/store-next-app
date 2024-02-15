@@ -2,6 +2,7 @@ import useFetch from "@/hooks/useFetch";
 import Products from "./components/Products";
 
 export default async function Home() {
+  // Test commit
   const products = await useFetch("https://dummyjson.com/products?limit=20");
   return (
     <section className="py-10">
